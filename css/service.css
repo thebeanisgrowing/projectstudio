@@ -7,7 +7,8 @@
 
 body {
     width: 100%;
-    margin: 0 auto;
+    height: auto;
+    /* margin: 0 auto; */
 
     background-image: url("../img/background2.png");
     background-size: cover;
@@ -17,14 +18,14 @@ body {
 }
 #wrap {
     width: 100%;
-    margin: 0 auto;
+    height: 15093px;
 
     background-repeat: no-repeat;
 }
 #logo {
     position: absolute;
-    width: 171px;
-    height: 54px;
+    width: 154px;
+    height: 44px;
     left: 365px;
     top: 41px;
 }
@@ -107,6 +108,7 @@ li {
 }
 a:link {
     text-decoration: none;
+    text-decoration:none;
 }
 a:visited {
     color: #FFFFFF;
@@ -194,7 +196,7 @@ span {
 }
 #sub_title2 {
     position: absolute;
-    left: 374px;
+    left: 360px;
     top: 1805px;
 
     font-family: 'Pretendard';
@@ -207,7 +209,7 @@ span {
 }
 #sub_title3 {
     position: absolute;
-    left: 374px;
+    left: 360px;
     top: 2577px;
 
     font-family: 'Pretendard';
@@ -220,7 +222,7 @@ span {
 }
 #sub_title4 {
     position: absolute;
-    left: 374px;
+    left: 360px;
     top: 5816px;
 
     font-family: 'Pretendard';
@@ -233,7 +235,7 @@ span {
 }
 #sub_title5 {
     position: absolute;
-    left: 374px;
+    left: 360px;
     top: 7342px;
 
     font-family: 'Pretendard';
@@ -246,7 +248,7 @@ span {
 }
 #sub_title6 {
     position: absolute;
-    left: 374px;
+    left: 360px;
     top: 9237px;
 
     font-family: 'Pretendard';
@@ -259,7 +261,7 @@ span {
 }
 #sub_title7 {
     position: absolute;
-    left: 374px;
+    left: 360px;
     top: 10876px;
 
     font-family: 'Pretendard';
@@ -272,7 +274,7 @@ span {
 }
 #sub_title8 {
     position: absolute;
-    left: 374px;
+    left: 360px;
     top: 12261px;
 
     font-family: 'Pretendard';
@@ -461,13 +463,6 @@ span {
     left: 417px;
     top: 13471px;
 }
-#footer_background {
-    width: 100%;
-    height: auto;
-
-    left: 0px;
-    top: 13906px;
-}
 #footer_comment {
     position: absolute;
     left: 358.45px;
@@ -489,10 +484,11 @@ span {
     color: #FFFFFF;
 }
 #footer_copyright {
-    display: inline;
+    /* display: inline; */
+    
     position: absolute;
     left: 34px;
-    top: 14808px;
+    top: 15048px;
     padding: 10px;
 
     font-family: 'Pretendard';
